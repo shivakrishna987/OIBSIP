@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: black;
+    overflow-x: hidden;
+}
+
+html{
+    font-size: 12px;
+}
+
+.header{
+    color: #000;
+    text-align: center;
+    padding: 100px;
+    height: 70vh;
+    font-size: larger;
+    background-position: center;
+    background-size: cover;
+    background-image: url(images/Elon-img.jpg);
+}
+
+#second-div{
+    background-color: #fff;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#second-div #text{
+    min-width: 30%;
+    font: 1.8rem/1.4 Georgia, serif;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+
+}
+
+.quote{
+    font-size: 5rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#second-div #image{
+    order: 2;
+    flex-grow: 1;
+    min-width: 40%;
+    align-self: center;
+    max-width: 300px;
+    margin-right: 6%;
+}
+
+#elon-img{
+    margin: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+    float: right;
+}
+
+#third-div{
+    background-color: #000;
+    min-height: 100vh;
+}
+
+.box{
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    padding: 40px;
+    font-size: 2rem;
+    justify-content: center;
+}
+
+#third-div #text{
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fourth-div{
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+#fourth-div #title{
+    color: #000;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#fourth-div .title{
+    padding-bottom: 0;
+}
+
+#com-img{
+    position: absolute;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,300px));
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+#imgs{
+    width: 300px;
+    height: 200px;
+
+}
+
+#footer{
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:40px; 
+    background:#6cf;
+}
